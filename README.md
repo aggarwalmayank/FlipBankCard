@@ -4,17 +4,17 @@
 
 
 
-Add it in your root build.gradle (app module) at the end of repositories:
-    allprojects {
-        repositories {
-            maven { url 'https://jitpack.io' }
-        }
-      }
+Add it in your root build.gradle (app module) at the end of repositories:<br/>
+    allprojects {<br/>
+        repositories {<br/>
+            maven { url 'https://jitpack.io' }<br/>
+        }<br/>
+      }<br/>
    
-Add the dependency
-    dependencies {
-              implementation 'com.github.aggarwalmayank:FlipBankCard:1.1'
-      }
+Add the dependency<br/>
+    dependencies {<br/>
+              implementation 'com.github.aggarwalmayank:FlipBankCard:1.1'<br/>
+      }<br/>
 
 Use the layout mentioned below in your activity
 
