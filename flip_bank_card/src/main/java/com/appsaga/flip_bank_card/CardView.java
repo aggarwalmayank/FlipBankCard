@@ -116,6 +116,7 @@ public class CardView extends Fragment {
         cvv=view.findViewById(R.id.cvv);
         Name=view.findViewById(R.id.holder);
         Number=view.findViewById(R.id.number);
+        typecard=view.findViewById(R.id.typecard);
         Cvv=view.findViewById(R.id.cvvno);
         Exp=view.findViewById(R.id.expiry);
         final EasyFlipView fp = view.findViewById(R.id.flip);
