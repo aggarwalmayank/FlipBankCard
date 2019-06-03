@@ -4,20 +4,24 @@
 
 
 
-Add it in your root build.gradle (app module) at the end of repositories:<br/>
-    allprojects {<br/>
-        repositories {<br/>
-            maven { url 'https://jitpack.io' }<br/>
-        }<br/>
-      }<br/>
-   
-Add the dependency<br/>
-    dependencies {<br/>
-              implementation 'com.github.aggarwalmayank:FlipBankCard:1.1'<br/>
-      }<br/>
+#Add it in your root build.gradle (app module) at the end of repositories:
+```sh
+	allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
+      }
+```	  
+      
+#Add the dependency
+```sh
+    dependencies {
+              implementation 'com.github.aggarwalmayank:FlipBankCard:1.1'
+      }
+```
 
-Use the layout mentioned below in your activity
-
+#Use the layout mentioned below in your activity
+```sh
             <?xml version="1.0" encoding="utf-8"?>
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -34,20 +38,22 @@ Use the layout mentioned below in your activity
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
             </LinearLayout>
-            
-In Java file of Activity 
+ ```           
+#In Java file of Activity 
   
     //implement using 
-    "implements CardView.OnFragmentInteractionListener" 
-    
+```sh
+implements CardView.OnFragmentInteractionListener 
+```    
     //and overrride method  
+```sh
     @Override
     public void onFragmentInteraction(Uri uri) {
 
     }
-    
+```    
     in OnCreateMethod type
-    
+ ```sh   
         FragmentManager fragmentManager=getSupportFragmentManager();
         CardView cardView=(CardView)fragmentManager.findFragmentById(R.id.idSetByYou);
         
@@ -62,3 +68,4 @@ In Java file of Activity
         
         //to access Expiry use
         cardView.getExp();        //it will return string;
+```
