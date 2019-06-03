@@ -1,7 +1,6 @@
 # FlipBankCard
 
-
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/32715597/58808969-ac637300-8638-11e9-8b40-940e6cb689f8.gif)
+![ezgif com-resize](https://user-images.githubusercontent.com/32715597/58809286-41666c00-8639-11e9-9602-d631090b62be.gif)
 
 
 Add it in your root build.gradle (app module) at the end of repositories:
