@@ -4,7 +4,7 @@
 
 
 
-#Add it in your root build.gradle (app module) at the end of repositories:
+Add it in your root build.gradle (app module) at the end of repositories:
 ```sh
 	allprojects {
         repositories {
@@ -13,14 +13,14 @@
       }
 ```	  
       
-#Add the dependency
+Add the dependency
 ```sh
     dependencies {
               implementation 'com.github.aggarwalmayank:FlipBankCard:1.1'
       }
 ```
 
-#Use the layout mentioned below in your activity
+Use the layout mentioned below in your activity
 ```sh
             <?xml version="1.0" encoding="utf-8"?>
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -39,20 +39,24 @@
                     android:layout_weight="1" />
             </LinearLayout>
  ```           
-#In Java file of Activity 
+In Java file of Activity 
   
-    //implement using 
+    implement using
+    
 ```sh
 implements CardView.OnFragmentInteractionListener 
 ```    
-    //and overrride method  
+    and overrride method
+    
 ```sh
     @Override
     public void onFragmentInteraction(Uri uri) {
 
     }
+    
 ```    
     in OnCreateMethod type
+    
  ```sh   
         FragmentManager fragmentManager=getSupportFragmentManager();
         CardView cardView=(CardView)fragmentManager.findFragmentById(R.id.idSetByYou);
