@@ -41,12 +41,12 @@ Use the layout mentioned below in your activity
  ```           
 In Java file of Activity 
   
-    implement using
+   implement using
     
 ```sh
 implements CardView.OnFragmentInteractionListener 
 ```    
-    and overrride method
+   and overrride method
     
 ```sh
     @Override
@@ -55,7 +55,7 @@ implements CardView.OnFragmentInteractionListener
     }
     
 ```    
-    in OnCreateMethod type
+   in OnCreateMethod type
     
  ```sh   
         FragmentManager fragmentManager=getSupportFragmentManager();
