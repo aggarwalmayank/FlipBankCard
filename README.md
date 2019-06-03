@@ -1,7 +1,7 @@
 # FlipBankCard
 
-<a href="https://imgflip.com/gif/32jamg"><img src="https://i.imgflip.com/32jamg.gif" title="made at imgflip.com"/></a>
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/32715597/58808969-ac637300-8638-11e9-8b40-940e6cb689f8.gif)
 
 
 Add it in your root build.gradle (app module) at the end of repositories:
