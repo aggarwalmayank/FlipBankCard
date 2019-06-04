@@ -54,7 +54,7 @@ implements CardView.OnFragmentInteractionListener
     }
     
 ```    
-   in OnCreateMethod type
+   in OnCreate Method type
     
  ```sh   
         FragmentManager fragmentManager=getSupportFragmentManager();
@@ -64,7 +64,7 @@ implements CardView.OnFragmentInteractionListener
         cardView.getNumber();     //it will return String
         
         //to access Holder Name use
-        caedView.getName();       //it will return String
+        cardView.getName();       //it will return String
         
         //to access CVV use
         cardView.getCvv();        //it will return string
